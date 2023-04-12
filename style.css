@@ -1,12 +1,51 @@
-img{
-    max-width: 200px;
-    max-height: 200px;
+*{
+	font-family: Comic Sans MS, Comic Sans, cursive;
 }
 h1{
-    text-align: center;
+	text-align: center;
 }
-ul{
-    text-align: right;
-    display: inline-block;
-    justify-content: space-between;
+div{
+	box-sizing: border-box;
+	background-color: lightgray;
+	border:3px solid black;
+	margin:4px;
+}
+p{
+	padding: 5px;
+}
+h4{
+	width: 20%;
+	height: 20%;
+	border: 2px solid black;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	float: right;
+}
+.pink{
+	background-color: pink;
+}
+.red{
+	background-color: red;
+}
+.yellow{
+	background-color: yellow;
+}
+
+@media(min-width:992px){
+	div{
+	    width: 32%;
+        float: left;
+        
+	}
+}
+@media(min-width:768px) and (max-width:991px){
+	div{
+		width: 48%;
+		float: left;
+	}
+	div.three{
+		width: 98%;
+	}
+	
 }
